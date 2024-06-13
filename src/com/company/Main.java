@@ -10,4 +10,11 @@ public float multiplication (float val1, float val2 ){
     float risultato = val1 * val2;
     return risultato;
     }
+
+
+public float division (float val1, float val2 ){
+    float risultato = val1 / val2;
+    return risultato;
+    }
+
 }
