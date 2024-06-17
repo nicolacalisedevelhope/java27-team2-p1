@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.println("Inserisci 2 valori numerici con al centro un operando (es. 1 + 1)");
         checkOperator(scanner);
 
@@ -41,4 +41,10 @@ public class Main {
         }
 
     }
+    // Modulo per eseguire e stampare moltiplicazione
+    public static void multiplication (float val1, float val2 ){
+        float risultato = val1 * val2;
+        System.out.println("Il risultato della moltiplicazione è: " +  risultato);
+    }
+
 }
