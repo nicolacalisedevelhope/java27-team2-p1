@@ -106,7 +106,6 @@ public class Main {
     // Modulo per eseguire e stampare la potenza
     public static void power(float base, float esponente) {
         float potenza = 1;
-
         if (esponente < 0) {
             for (int i = 0; i > esponente; i--) {
                 potenza *= base;
